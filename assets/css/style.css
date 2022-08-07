@@ -1,0 +1,98 @@
+:root {
+    --dark: rgb(71, 67, 67);
+    --purple: rgb(201, 19, 201);
+    --white: rgb(228, 222, 222);
+}
+
+* {
+    background-color: var(--dark);
+}
+
+.top-header {
+    color: var(--purple);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.caption {
+    color: var(--white);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.boxes {
+    border: 2px var(--white) dashed;
+    color: var(--purple);
+    width: 300px;
+    height: 200px;
+}
+
+.boxes:hover {
+    border: 2px var(--purple) solid;
+    box-shadow: 10px 10px gray;
+}
+
+.boxes-2 {
+    border: 2px var(--white) dashed;
+    color: var(--purple);
+    width: 300px;
+    height: 300px;
+}
+
+.boxes-2:hover {
+    border: 2px var(--purple) solid;
+    box-shadow: 10px 10px gray;
+}
+
+.box-header {
+    text-align: left;
+    position: relative;
+    border-radius: 5px;
+    border: 2px var(--white) solid;
+    width: 280px;
+    left: 8px;
+    top: -20px;
+    font-size: 25px;
+}
+
+.box-header h2 {
+    padding: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+main p {
+    padding: 4px;
+}
+
+.code {
+    background-color: var(--purple);
+    color: var(--white);
+    margin: 8px;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+}
+
+code {
+    background-color: var(--purple);
+}
+
+code:hover {
+    background-color: var(--dark);
+}
+
+.indent {
+    margin-left: 20px;
+}
+
+footer h2 {
+    color: var(--purple);
+    text-align: center;
+    margin-top: 15px;
+}
